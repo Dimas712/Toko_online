@@ -54,10 +54,10 @@ export default function Footer() {
                   <p>Jl. Jasinga No.123, Jasinga, Bogor</p>
                 </li>
                 <li>
-                  <p>Telepon: 0857-1604-1690</p>
+                  <p>Telepon: 0858-9176-6756</p>
                 </li>
                 <li>
-                  <p>Email: tugasin@gmail.com</p>
+                  <p>Email: tugas.inaja@gmail.com</p>
                 </li>
               </ul>
             </div>
