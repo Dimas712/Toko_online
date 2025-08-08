@@ -54,7 +54,6 @@ export default function Navbar() {
           <Link href="/" onClick={() => setMenuOpen(false)} className="hover:underline">Beranda</Link>
           <Link href="/layanan" onClick={() => setMenuOpen(false)} className="hover:underline">Layanan</Link>
           <Link href="#portofolio" onClick={() => setMenuOpen(false)} className="hover:underline">Portofolio</Link>
-          <Link href="#harga" onClick={() => setMenuOpen(false)} className="hover:underline">Harga</Link>
           <Link href="#kontak" onClick={() => setMenuOpen(false)} className="hover:underline">Kontak</Link>
           <Link
             href="#pesan"
