@@ -66,7 +66,7 @@ const products = [
   },
 ];
 
-export default function ProductList() {
+export default function LayananPage() {
   return (
     <div className="px-6 py-8">
       <h2 className="text-xl font-bold mb-4">Layanan Multimedia & Tugas Sekolah</h2>
