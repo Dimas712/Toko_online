@@ -51,7 +51,7 @@ export default function Footer() {
               </h2>
               <ul className="text-black-500 font-medium space-y-2">
                 <li>
-                  <p>Jl. Jasinga No.123, Jasinga, Bogor</p>
+                  <p>Jl. Raya Jasinga, Pamagersari, Kec. Jasinga, Kabupaten Bogor, Jawa Barat 16670</p>
                 </li>
                 <li>
                   <p>Telepon: 0858-9176-6756</p>
