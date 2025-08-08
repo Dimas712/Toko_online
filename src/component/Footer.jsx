@@ -14,7 +14,7 @@ export default function Footer() {
               <img src="/logo.png" alt="Logo" className="w-[159px]" />
             </a>
             <p className="text-sm text-gray-700">
-              JasaMultimedia.id adalah solusi untuk kebutuhan multimedia tugas sekolah Anda. Kami melayani pembuatan video presentasi, desain poster, animasi, dan voice over dengan kualitas profesional dan pengerjaan cepat.
+              Tugas.In adalah solusi untuk kebutuhan multimedia tugas sekolah Anda. Kami melayani pembuatan video presentasi, desain poster, animasi, dan voice over dengan kualitas profesional dan pengerjaan cepat.
             </p>
           </div>
 
@@ -53,13 +53,13 @@ export default function Footer() {
               </h2>
               <ul className="text-black-500 font-medium space-y-2">
                 <li>
-                  <p>Jl. Multimedia No.123, Jasinga, Bogor</p>
+                  <p>Jl. Jasinga No.123, Jasinga, Bogor</p>
                 </li>
                 <li>
-                  <p>Telepon: 0812-3456-7890</p>
+                  <p>Telepon: 0857-1604-1690</p>
                 </li>
                 <li>
-                  <p>Email: jasamultimedia@gmail.com</p>
+                  <p>Email: tugasin@gmail.com</p>
                 </li>
               </ul>
             </div>
@@ -70,7 +70,7 @@ export default function Footer() {
 
         <div className="sm:flex sm:items-center sm:justify-between text-sm text-black-500">
           <span>
-            © 2025 <a className="hover:underline">JasaMultimedia.id</a>. All Rights Reserved.
+            © 2025 <a className="hover:underline">Tugas.In</a>. All Rights Reserved.
           </span>
         </div>
       </div>

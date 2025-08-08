@@ -42,7 +42,7 @@ export default function Home() {
             >
               Pesan Sekarang
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/layanan" className="text-sm font-semibold leading-6 text-gray-900">
               Lihat Layanan <span aria-hidden="true">→</span>
             </a>
           </div>
