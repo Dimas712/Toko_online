@@ -3,7 +3,7 @@ import Navbar from '../component/Navbar';
 import Footer from '../component/Footer';
 
 export const metadata = {
-  title: "Buitenzorg Shoes",
+  title: "Tugas.In",
   description: "Contoh navbar Shopee dengan Next.js",
 };
 

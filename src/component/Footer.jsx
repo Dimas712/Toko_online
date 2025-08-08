@@ -1,13 +1,79 @@
+"use client";
+
+import React from "react";
+import Link from "next/link";
+
 export default function Footer() {
   return (
-    <footer style={{
-      background: '#333',
-      color: '#fff',
-      textAlign: 'center',
-      padding: '1rem',
-      marginTop: '2rem'
-    }}>
-      <p>© 2025 My Next.js App. All rights reserved.</p>
+    <footer className="bg-gradient-to-b from-white to-green2">
+      <div className="mx-auto w-full max-w-screen-xl px-8 py-6">
+        <div className="md:flex md:justify-between">
+          {/* Logo & Deskripsi */}
+          <div className="mb-6 md:mb-0 max-w-md">
+            <a className="flex items-center pb-4">
+              <img src="/logo.png" alt="Logo" className="w-[159px]" />
+            </a>
+            <p className="text-sm text-gray-700">
+              JasaMultimedia.id adalah solusi untuk kebutuhan multimedia tugas sekolah Anda. Kami melayani pembuatan video presentasi, desain poster, animasi, dan voice over dengan kualitas profesional dan pengerjaan cepat.
+            </p>
+          </div>
+
+          {/* Navigasi & Info */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pl-4 pr-4">
+            {/* Navigasi */}
+            <div>
+              <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">
+                Navigasi
+              </h2>
+              <ul className="text-black-500 font-medium space-y-2">
+                <li><Link href="/" className="hover:underline">Beranda</Link></li>
+                <li><Link href="#layanan" className="hover:underline">Layanan</Link></li>
+                <li><Link href="#portofolio" className="hover:underline">Portofolio</Link></li>
+                <li><Link href="#harga" className="hover:underline">Harga</Link></li>
+                <li><Link href="#kontak" className="hover:underline">Kontak</Link></li>
+              </ul>
+            </div>
+
+            {/* Sosial Media */}
+            <div>
+              <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">
+                Ikuti Kami
+              </h2>
+              <ul className="text-black-500 font-medium space-y-2">
+                <li><a href="#" className="hover:underline">Instagram</a></li>
+                <li><a href="#" className="hover:underline">TikTok</a></li>
+                <li><a href="#" className="hover:underline">YouTube</a></li>
+              </ul>
+            </div>
+
+            {/* Kontak */}
+            <div className="max-w-xs">
+              <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">
+                Hubungi Kami
+              </h2>
+              <ul className="text-black-500 font-medium space-y-2">
+                <li>
+                  <p>Jl. Multimedia No.123, Jasinga, Bogor</p>
+                </li>
+                <li>
+                  <p>Telepon: 0812-3456-7890</p>
+                </li>
+                <li>
+                  <p>Email: jasamultimedia@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <hr className="my-6 border-gray-200" />
+
+        <div className="sm:flex sm:items-center sm:justify-between text-sm text-black-500">
+          <span>
+            © 2025 <a className="hover:underline">JasaMultimedia.id</a>. All Rights Reserved.
+          </span>
+        </div>
+      </div>
     </footer>
   );
 }
