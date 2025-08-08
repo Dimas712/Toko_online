@@ -32,13 +32,13 @@ export default function Contact() {
             </p>
             <div className="mt-10">
               <p className="text-sm text-gray-400">
-                📞 Telepon: <a href="tel:+6281234567890" className="hover:text-white">+62 812-3456-7890</a>
+                📞 Telepon: <a href="tel:+6281234567890" className="hover:text-white">0858-9176-6756</a>
               </p>
               <p className="mt-2 text-sm text-gray-400">
-                ✉️ Email: <a href="mailto:info@perusahaanku.com" className="hover:text-white">info@perusahaanku.com</a>
+                ✉️ Email: <a href="mailto:info@perusahaanku.com" className="hover:text-white">tugas.inaja@gmail.com</a>
               </p>
               <p className="mt-2 text-sm text-gray-400">
-                🏢 Alamat: Jl. Contoh No. 123, Jakarta
+                🏢 Alamat: Jl. Raya Jasinga, Pamagersari, Kec. Jasinga, Kabupaten Bogor, Jawa Barat 16670
               </p>
             </div>
           </div>
