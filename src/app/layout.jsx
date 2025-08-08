@@ -6,7 +6,7 @@ export const metadata = {
   title: "Tugas.In",
   description: "Layanan pembuatan tugas kuliah, tugas sekolah, dan konsultasi akademik terpercaya.",
   other: {
-    "google-site-verification": "kode_verifikasi_anda"
+    "google-site-verification": "VJbroswWy6KUH_M0ZT_e6udWW_ehzWO7-Xdf0PZN4Dk"
   }
 };
 
