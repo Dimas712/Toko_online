@@ -51,7 +51,7 @@ const products = [
   },
   {
     id: 10,
-    name: "Membuat Modul",
+    name: "Pembuatan Website",
     image: "/modul.jpg",
   },
 ];

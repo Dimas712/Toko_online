@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Logo & Deskripsi */}
           <div className="mb-6 md:mb-0 max-w-md">
             <a className="flex items-center pb-4">
-              <img src="/logo.png" alt="Logo" className="w-[159px]" />
+              <img src="/Tugasin.jpeg" alt="Logo" className="w-[159px]" />
             </a>
             <p className="text-sm text-gray-700">
               Tugas.In adalah solusi untuk kebutuhan multimedia tugas sekolah Anda. Kami melayani pembuatan video presentasi, desain poster, animasi, dan voice over dengan kualitas profesional dan pengerjaan cepat.

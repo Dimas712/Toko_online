@@ -20,8 +20,8 @@ export default function Navbar() {
           <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 space-x-6 font-medium">
             <Link href="/" className="hover:underline">Beranda</Link>
             <Link href="/layanan" className="hover:underline">Layanan</Link>
-            <Link href="#portofolio" className="hover:underline">Portofolio</Link>
-            <Link href="#kontak" className="hover:underline">Kontak</Link>
+            <Link href="/portofolio" className="hover:underline">Portofolio</Link>
+            <Link href="/kontak" className="hover:underline">Kontak</Link>
           </div>
 
           {/* Desktop CTA Button - Right */}
@@ -53,8 +53,8 @@ export default function Navbar() {
         <div className="p-6 mt-14 flex flex-col space-y-4 font-medium">
           <Link href="/" onClick={() => setMenuOpen(false)} className="hover:underline">Beranda</Link>
           <Link href="/layanan" onClick={() => setMenuOpen(false)} className="hover:underline">Layanan</Link>
-          <Link href="#portofolio" onClick={() => setMenuOpen(false)} className="hover:underline">Portofolio</Link>
-          <Link href="#kontak" onClick={() => setMenuOpen(false)} className="hover:underline">Kontak</Link>
+          <Link href="/portofolio" onClick={() => setMenuOpen(false)} className="hover:underline">Portofolio</Link>
+          <Link href="/kontak" onClick={() => setMenuOpen(false)} className="hover:underline">Kontak</Link>
           <Link
             href="#pesan"
             onClick={() => setMenuOpen(false)}
