@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <main className="relative isolate px-6 pt-14 lg:px-8">
+    <main className="relative isolate px-6 lg:px-8">
       {/* Background atas */}
       <div
         aria-hidden="true"
@@ -17,7 +17,7 @@ export default function Home() {
       </div>
 
       {/* Konten utama */}
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div className="mx-auto max-w-2xl py-8 sm:py-12 lg:py-16">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
             Platform jasa multimedia tugas sekolah.{' '}
