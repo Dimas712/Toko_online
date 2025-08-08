@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <main className="relative isolate px-6 lg:px-8">
+    <main className="relative isolate px-6 pt-4 lg:px-8">
       {/* Background atas */}
       <div
         aria-hidden="true"
