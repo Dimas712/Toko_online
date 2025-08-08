@@ -6,52 +6,52 @@ const products = [
   {
     id: 1,
     name: "Membuat Makalah",
-    image: "/makalah.jpg",
+    image: "/Makalah.png",
   },
   {
     id: 2,
     name: "Membuat Proposal",
-    image: "/proposal.jpg",
+    image: "/Proposal.jpg",
   },
   {
     id: 3,
     name: "Membuat Skripsi",
-    image: "/skripsi.jpg",
+    image: "/Skripsi.jpg",
   },
   {
     id: 4,
     name: "Membuat CV / Lamaran",
-    image: "/cv.jpg",
+    image: "/Lamaran.jpg",
   },
   {
     id: 5,
     name: "Jasa Ketik",
-    image: "/jasaketik.jpg",
+    image: "/Mengetik.jpg",
   },
   {
     id: 6,
     name: "Jasa Foto Panggilan",
-    image: "/fotopanggilan.jpg",
+    image: "/Fotograph.jpg",
   },
   {
     id: 7,
     name: "Jasa Desain",
-    image: "/jasadesain.jpg",
+    image: "/Desain.jpg",
   },
   {
     id: 8,
     name: "Tugas Sekolah",
-    image: "/tugassekolah.jpg",
+    image: "/Tugas Sekolah.jpg",
   },
   {
     id: 9,
     name: "Jasa Terjemahan",
-    image: "/terjemahan.jpg",
+    image: "/Terjemahan.jpg",
   },
   {
     id: 10,
     name: "Pembuatan Website",
-    image: "/modul.jpg",
+    image: "/Coder.jpg",
   },
 ];
 
@@ -70,7 +70,7 @@ export default function LayananPage() {
                 src={product.image}
                 alt={product.name}
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <div className="p-4">
