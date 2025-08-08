@@ -4,7 +4,10 @@ import Footer from "../component/Footer";
 
 export const metadata = {
   title: "Tugas.In",
-  description: "Platform jasa tugas dan skripsi",
+  description: "Layanan pembuatan tugas kuliah, tugas sekolah, dan konsultasi akademik terpercaya.",
+  other: {
+    "google-site-verification": "kode_verifikasi_anda"
+  }
 };
 
 export default function RootLayout({ children }) {

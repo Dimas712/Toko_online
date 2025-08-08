@@ -27,9 +27,8 @@ export default function Footer() {
               </h2>
               <ul className="text-black-500 font-medium space-y-2">
                 <li><Link href="/" className="hover:underline">Beranda</Link></li>
-                <li><Link href="#layanan" className="hover:underline">Layanan</Link></li>
+                <li><Link href="/layanan" className="hover:underline">Layanan</Link></li>
                 <li><Link href="#portofolio" className="hover:underline">Portofolio</Link></li>
-                <li><Link href="#harga" className="hover:underline">Harga</Link></li>
                 <li><Link href="#kontak" className="hover:underline">Kontak</Link></li>
               </ul>
             </div>
@@ -42,7 +41,6 @@ export default function Footer() {
               <ul className="text-black-500 font-medium space-y-2">
                 <li><a href="#" className="hover:underline">Instagram</a></li>
                 <li><a href="#" className="hover:underline">TikTok</a></li>
-                <li><a href="#" className="hover:underline">YouTube</a></li>
               </ul>
             </div>
 
