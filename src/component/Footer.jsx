@@ -39,7 +39,7 @@ export default function Footer() {
                 Ikuti Kami
               </h2>
               <ul className="text-black-500 font-medium space-y-2">
-                <li><a href="https://www.instagram.com/tugas.innnn/" className="hover:underline">Instagram</a></li>
+                <li><a href="https://www.instagram.com/tugas.innnn" className="hover:underline">Instagram</a></li>
                 <li><a href="#" className="hover:underline">TikTok</a></li>
               </ul>
             </div>
