@@ -1,10 +1,4 @@
-// FloatingWhatsApp.jsx
-// Komponen Next.js (React) untuk tombol WhatsApp mengambang menggunakan Tailwind CSS dengan avatar customer service.
-// Cara pakai:
-// 1. Ganti DEFAULT_PHONE dengan nomor WA customer service (format internasional tanpa +, contoh: 6281234567890).
-// 2. Import dan taruh <FloatingWhatsApp /> di file layout (mis. app/layout.jsx) agar muncul di semua halaman.
-// 3. Pastikan gambar customer service disimpan di folder public, misalnya /public/cs-avatar.jpg.
-
+"use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
 
