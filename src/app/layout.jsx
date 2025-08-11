@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "../component/Navbar"; // pastikan penulisan 'components', bukan 'component'
 import Footer from "../component/Footer";
+import FloatingWhatsApp from "../component/FloatingWhatsApp";
 
 export const metadata = {
   title: "Tugas.In",
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <main className="flex-1 pt-[72px]">
           {children}
         </main>
+        <FloatingWhatsApp/>
         <Footer />
       </body>
     </html>
