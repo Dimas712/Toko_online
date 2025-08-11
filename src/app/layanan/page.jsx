@@ -76,7 +76,7 @@ export default function LayananPage() {
             <div className="p-4">
               <h3 className="font-semibold text-gray-800">{product.name}</h3>
 
-              <a href={`/form-pemesanan?jasa=${encodeURIComponent(product.name)}`}>
+              <a href={`/pemesanan?jasa=${encodeURIComponent(product.name)}`}>
                 <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 w-full cursor-pointer">
                   Pesan Sekarang
                 </button>

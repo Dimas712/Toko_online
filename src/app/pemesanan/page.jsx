@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 
-export default function FormPemesanan() {
+export default function Pemesanan() {
   const searchParams = useSearchParams();
   const jasa = searchParams.get("jasa") || "";
 
