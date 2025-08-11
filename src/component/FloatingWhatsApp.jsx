@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function FloatingWhatsApp({
   phone = '6285891766756',
   message = 'Halo%20Tugas.In!%20Saya%20ingin%20menanyakan%20layanan',
-  size = 64
+  size = 84
 }) {
   const [showTooltip, setShowTooltip] = useState(false);
   const waUrl = `https://wa.me/${phone}?text=${message}`;
