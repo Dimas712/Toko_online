@@ -33,7 +33,7 @@ export default function FloatingWhatsApp({
           alt="Customer Service Avatar"
           width={size}
           height={size}
-          className="rounded-full border-2 border-white object-cover"
+          className="object-cover"
         />
       </a>
     </div>
