@@ -1,10 +1,10 @@
+// app/pemesanan/page.jsx
 "use client";
-import { useState } from "react";
-import { useSearchParams } from "next/navigation";
 
-export default function Pemesanan() {
-  const searchParams = useSearchParams();
-  const jasa = searchParams.get("jasa") || "";
+import { useState } from "react";
+
+export default function Pemesanan({ searchParams }) {
+  const jasa = searchParams?.jasa || "";
 
   const [formData, setFormData] = useState({
     nama: "",
@@ -12,7 +12,7 @@ export default function Pemesanan() {
     alamat: "",
     keterangan: "",
     jasa,
-    bayar: "cash"
+    bayar: "cash",
   });
 
   const qrisImage = "/qris.jpeg"; // Simpan gambar di folder public
@@ -64,7 +64,6 @@ export default function Pemesanan() {
         value={formData.alamat}
       />
 
-      {/* Field keterangan tambahan */}
       <textarea
         placeholder="Keterangan tambahan (opsional)"
         className="border p-2 w-full mb-2 rounded"
@@ -78,6 +77,7 @@ export default function Pemesanan() {
         value={formData.jasa}
         readOnly
       />
+
       <label className="block mb-2 font-semibold">Metode Pembayaran</label>
       <select
         className="border p-2 w-full mb-4 rounded"
