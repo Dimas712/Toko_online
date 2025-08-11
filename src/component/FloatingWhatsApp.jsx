@@ -25,7 +25,7 @@ export default function FloatingWhatsApp({
         title="Hubungi Customer Service via WhatsApp"
         onMouseEnter={() => setShowTooltip(true)}
         onMouseLeave={() => setShowTooltip(false)}
-        className="rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
+        className="shadow-lg hover:scale-110 transition-transform duration-300"
         style={{ width: size, height: size }}
       >
         <Image
