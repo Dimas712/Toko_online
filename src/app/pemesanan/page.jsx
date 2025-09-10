@@ -25,7 +25,7 @@ export default function Pemesanan({ searchParams }) {
   };
 
   const kirimWA = () => {
-    const adminPhone = "6285891766756";
+    const adminPhone = "6285716041690";
     const text = `Halo Admin, saya ingin memesan layanan:\n
     Nama: ${formData.nama}
     No HP: ${formData.hp}
