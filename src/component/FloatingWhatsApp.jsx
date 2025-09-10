@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 
 export default function FloatingWhatsApp({
-  phone = '6285891766756',
+  phone = '6285716041690',
   message = 'Halo%20Tugas.In!%20Saya%20ingin%20menanyakan%20layanan',
   size = 134
 }) {
